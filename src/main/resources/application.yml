@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: "DA_QLSUKIEN_NHOM9"
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cdio4?useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 17062003
+
+# ===============================
+# JPA / HIBERNATE
+# ===============================
+  jpa:
+    showSql: true
+    hibernate:
+      ddlAuto: update
